@@ -32,7 +32,7 @@ const Testimonial = (props) => {
     
     
     return (
-        <div className="w-[35vw] md:w-[700px] bg-white flex flex-col justify-center items-center
+        <div className="w-full md:w-[700px] bg-white flex flex-col justify-center items-center
         mt-10 p-10 transition-all duration-700 hover:shadow-xl rounded-md">  
       <Card review={reviews[len]}></Card>
           

@@ -5,10 +5,10 @@ import Testimonial from "./components/Testimonial";
 function App() {
   
   return (
-    <div className="flex flex-col w-[100vw] h-[100vh] justify-center items-center bg-gray-200">
-      <div className="text-center">
+    <div className="flex flex-col w-[100vw] justify-center items-center bg-gray-200">
+      <div className="text-center h-fit">
         <h1 className="text-4xl font-bold">Our Testimonials</h1> 
-        <div className="bg-violet-400 h-[4px] w-1/5 mx-auto "></div>
+        <div className="bg-violet-400 h-fit sm:w-1/5 w-4/5 mx-auto "></div>
         <Testimonial reviews={reviews}></Testimonial>
       </div>
 

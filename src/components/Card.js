@@ -5,13 +5,13 @@ const Card = (props) => {
     let review = props.review
     return (
         <div className="flex flex-col md:relative">
-            <div className='absolute top-[-7rem] z-[10] mx-auto'>
+            <div className='absolute top-[2.5rem] md:top-[-7rem] z-[10] mx-auto'>
                 <img className="aspect-square rounded-full w-[140px] h-[140px] z-25"
                     src={review.image} alt="" />
                 <div className="w-[140px] h-[140px] bg-violet-500 rounded-full absolute top-[-6px] z-[-1] left-[10px]"></div>
             </div>
 
-            <div className="text-center mt-7">
+            <div className="text-center sm:mt-7 mt-14">
                 <p className="font-bold text-2xl capitalize">{review.name}</p>
                 <p className="text-violet-300 uppercase text-sm">{review.job}</p>
             </div>
